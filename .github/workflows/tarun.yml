@@ -1,0 +1,10 @@
+name: github action tigger practices
+on:
+  push: 
+jobs:
+  first_job:
+    name: first job
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
+  
