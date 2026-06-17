@@ -1,6 +1,8 @@
 name: github action tigger practices
 on:
   push: 
+  branch:
+   
 jobs:
   first_job:
     name: first job
