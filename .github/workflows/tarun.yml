@@ -1,7 +1,12 @@
 name: github action tigger practices
 on:
   push: 
-  branch:
+  branches:
+    -main
+  pull_request: 
+   branches: 
+     -devlop
+     -main
    
 jobs:
   first_job:
